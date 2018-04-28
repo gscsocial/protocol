@@ -1,6 +1,4 @@
 # protocol
-the protocol of gscsocial
-
-the protocol for
+the protocol of gscsocial, including
 1. the core social protocal.
 2. network transfer.
