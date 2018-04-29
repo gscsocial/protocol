@@ -13,3 +13,27 @@ message Account {
   int64 balance = 4;
   map<string, int64> tokens = 6;
 }
+
+enum ActionType {
+      AccountCreateAction = 0;
+S}
+  message Action {
+    Type type = 1;
+    google.protobuf.Any parameter = 2;
+    bytes provider = 3;
+    bytes ContractName = 4;
+  }
+message Transaction {
+   message raw {
+      TransactionType type = 1;
+      bytes ref_block_bytes = 2;
+      bytes ref_block_hash = 4;
+      int64 expiration = 8;
+      bytes data = 10;
+      repeated Contract contract = 11;
+      int64 timestamp = 14;
+    }
+    raw raw_data = 1;
+    repeated bytes signature = 2;
+  }
+
