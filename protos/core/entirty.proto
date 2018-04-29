@@ -16,7 +16,7 @@ message Account {
 
 enum ActionType {
       AccountCreateAction = 0;
-S}
+}
   message Action {
     Type type = 1;
     google.protobuf.Any parameter = 2;
