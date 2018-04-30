@@ -16,7 +16,7 @@ service Wallet {
 
 };
 
-
+// database api
 service Database {
 
   rpc GetNowBlock (EmptyMessage) returns (Block) {
