@@ -9,10 +9,25 @@ option java_package = "org.gsc.entirty"; //Specify the name of the package that 
 // Account
 message Account {
   bytes account_name = 1; // account name
+  // create address
   bytes address = 3; // like e83fe0c9cd6637158130fae10a4aa1391a70c7f2a0c78d47538aa95dd8af218b
   int64 balance = 4;
   map<string, int64> tokens = 6;
+  repeated Authrity auths = 8;
 }
+
+
+message AccountId {
+  bytes name = 1;
+  bytes address = 2;
+}
+
+message Authrity {
+  AccountId account = 1;
+  bytes permission_name = 2;
+
+}
+
 
 enum ActionType {
       AccountCreateAction = 0;
