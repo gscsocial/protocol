@@ -37,7 +37,7 @@ service Network {
 
 };
 
-
+// the return type
 message Return {
   bool result = 1;
 }
