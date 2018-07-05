@@ -2,10 +2,8 @@ syntax = "proto3";
 
 package protocol;
 
-
 option java_package = "org.gsc.protos"; //Specify the name of the package that generated the Java file
 option java_outer_classname = "Discover"; //Specify the class name of the generated Java file
-
 
 message Endpoint {
   bytes address = 1;
