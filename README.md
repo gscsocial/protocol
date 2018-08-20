@@ -9,6 +9,8 @@ The protocol of [GSC](https://gsc.social/) (Global Social Chain), including
 
 Follow us on:
 
+[Github](https://github.com/gscsocial)
+
 [Telegram](https://t.me/gscofficial)
 
 [Facebook](https://www.facebook.com/GSCCoin/)
