@@ -8,6 +8,7 @@ The protocol of [GSC](https://gsc.social/) (Global Social Chain), including
 
 
 Follow us on:
+[Website] (https://gsc.social/)
 
 [Github](https://github.com/gscsocial)
 
@@ -19,6 +20,6 @@ Follow us on:
 
 [Meidum](https://medium.com/@gsc_socialchain)
 
-[Reddit](https://www.reddit.com/user/GSCOfficial/)
-
 [Youtube](https://www.youtube.com/channel/UCWcQhl4N6_ggZFdHwTxuuIQ)
+
+[Reddit](https://www.reddit.com/user/GSCOfficial/)
